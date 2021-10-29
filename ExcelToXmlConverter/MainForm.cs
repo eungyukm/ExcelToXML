@@ -68,16 +68,11 @@ namespace ExcelToXMLConverter
 
             XmlDocument xmlDoc = excelReader.GetXMLNode();
 
+            //ResultTextBox.Text += (string.Format("객체 갯수 : {0}", xmlDoc) + Environment.NewLine);
 
-
-            this.ResultTextBox.Text += (string.Format("객체 갯수 : {0}", dataArray.Count) + Environment.NewLine);
-
-            
-
-            this.ResultTextBox.Text += ("변환종료 저장합니다=============" + Environment.NewLine);
+            ResultTextBox.Text += ("변환종료 저장합니다=============" + Environment.NewLine);
             FIleManager.SaveXmlFile(xmlDoc);
-            // TODO : 제거
-            //FIleManager.SaveJSonFile(dataArray);
+
 
             excelReader.Free();
         }

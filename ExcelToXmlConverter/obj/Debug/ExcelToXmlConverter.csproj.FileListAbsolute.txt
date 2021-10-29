@@ -1,22 +1,8 @@
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.exe.config
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.exe
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.pdb
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\bin\Debug\Newtonsoft.Json.dll
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\bin\Debug\Newtonsoft.Json.xml
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csprojAssemblyReference.cache
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToJsonConverter2.MainForm.resources
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToJsonConverter2.Properties.Resources.resources
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csproj.GenerateResource.cache
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csproj.CoreCompileInputs.cache
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csproj.CopyComplete
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToJsonConverter2.exe
-C:\Users\frontis\Desktop\R&D\15_다국어지원\ExcelToJsonConverter2\ExcelToXmlConverter\obj\Debug\ExcelToJsonConverter2.pdb
 D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.exe.config
 D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.exe
 D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Debug\ExcelToJsonConverter2.pdb
 D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Debug\Newtonsoft.Json.dll
 D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Debug\Newtonsoft.Json.xml
-D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csprojAssemblyReference.cache
 D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Debug\ExcelToXMLConverter.MainForm.resources
 D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Debug\ExcelToJsonConverter2.Properties.Resources.resources
 D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Debug\ExcelToXmlConverter.csproj.GenerateResource.cache
