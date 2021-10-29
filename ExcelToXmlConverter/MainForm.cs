@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 using System.Xml;
 
-namespace ExcelToJsonConverter2
+namespace ExcelToXMLConverter
 {
     public partial class MainForm : Form
     {

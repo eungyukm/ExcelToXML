@@ -1,4 +1,4 @@
-﻿namespace ExcelToJsonConverter2
+﻿namespace ExcelToXMLConverter
 {
     partial class MainForm
     {

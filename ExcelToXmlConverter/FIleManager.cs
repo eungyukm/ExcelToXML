@@ -7,7 +7,7 @@ using System.IO;
 using Newtonsoft.Json.Linq;
 using System.Xml;
 
-namespace ExcelToJsonConverter2
+namespace ExcelToXMLConverter
 {
     public class FIleManager
     {

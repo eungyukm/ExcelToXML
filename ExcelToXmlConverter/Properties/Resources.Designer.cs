@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExcelToJsonConverter2.Properties
+namespace ExcelToXMLConverter.Properties
 {
 
 

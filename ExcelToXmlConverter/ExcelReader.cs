@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 using System.Xml;
 using System.Diagnostics;
 
-namespace ExcelToJsonConverter2
+namespace ExcelToXMLConverter
 {
     public class ExcelReader
     {
