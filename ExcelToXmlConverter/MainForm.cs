@@ -66,7 +66,6 @@ namespace ExcelToXMLConverter
             ExcelReader excelReader = new ExcelReader();
             this.ResultTextBox.Text += (string.Format("변수 갯수 : {0}", excelReader.Range.Columns.Count) + Environment.NewLine);
 
-            JArray dataArray = excelReader.GetJsonArray();
             XmlDocument xmlDoc = excelReader.GetXMLNode();
 
 

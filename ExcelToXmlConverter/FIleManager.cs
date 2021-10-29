@@ -18,27 +18,27 @@ namespace ExcelToXMLConverter
         public static void SetNewFileName()
         {
             //파일 경로가 있을때.
-            if (!string.IsNullOrEmpty(FIleManager.FilePath))
+            if (!string.IsNullOrEmpty(FilePath))
             {
-                string path = FIleManager.FilePath.Substring(0, FilePath.LastIndexOf('\\') + 1);
+                string path = FilePath.Substring(0, FilePath.LastIndexOf('\\') + 1);
                 //새로운파일 이름 입력 안했을 때.
-                if (string.IsNullOrEmpty(FIleManager.NewFileName))
+                if (string.IsNullOrEmpty(NewFileName))
                 {
-                    string newName = FilePath.Substring(FilePath.LastIndexOf('\\') + 1, FileName.Split('.')[0].Length) + @".json";
+                    string newName = FilePath.Substring(FilePath.LastIndexOf('\\') + 1, FileName.Split('.')[0].Length) + @".xml";
                     NewFileName = path + newName;
                 }
 
                 //입력 했을 때.
                 else
                 {
-                    if (NewFileName.Contains(".json"))
+                    if (NewFileName.Contains(".xml"))
                     {
                         //json입력.
                         NewFileName = path + NewFileName;
                     }
                     else
                     {
-                        NewFileName = path + NewFileName + @".json";
+                        NewFileName = path + NewFileName + @".xml";
                     }
                 }
             }
@@ -49,14 +49,9 @@ namespace ExcelToXMLConverter
             return File.Exists(NewFileName);
         }
 
-        public static void SaveJSonFile(JArray jsonDatas)
-        {
-            File.WriteAllText(NewFileName, jsonDatas.ToString());
-        }
-
         public static void SaveXmlFile(XmlDocument xml)
         {
-            xml.Save($"{NewFileName}.xml");
+            xml.Save(NewFileName);
         }
     }
 }

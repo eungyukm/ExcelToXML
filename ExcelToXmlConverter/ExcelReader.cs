@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
-using Newtonsoft.Json.Linq;
 using System.Runtime.InteropServices;
 using System.Xml;
-using System.Diagnostics;
 
 namespace ExcelToXMLConverter
 {
@@ -32,33 +27,6 @@ namespace ExcelToXMLConverter
             Range = Sheet.UsedRange;
         }
 
-        public JArray GetJsonArray()
-        {
-            JArray rtnArray = new JArray();
-
-            //데이터 이름 뽑아내기.
-            List<string> nameList = new List<string>();
-            for(int i = 1; i <= Range.Columns.Count; i++)
-            {
-                nameList.Add(Range.Cells[1, i].Value.ToString());
-            }
-
-            //모든 컬럼을 돌며 JArray로 변환.
-            int startRow = 3;
-            for (int row = startRow; row <= Range.Rows.Count; row++)
-            {
-                var jObject = new JObject();
-
-                for (int col = 1; col <= Range.Columns.Count; col++)
-                {
-                    jObject.Add(nameList[col - 1], Range.Cells[row, col].Value.ToString());
-                }
-                Console.WriteLine(jObject.ToString());
-                rtnArray.Add(jObject);
-            }
-            return rtnArray;
-        }
-
         public XmlDocument GetXMLNode()
         {
             XmlDocument xmlDoc = new XmlDocument();
@@ -71,7 +39,6 @@ namespace ExcelToXMLConverter
             xmlDoc.AppendChild(root);
 
 
-
             //데이터 이름 뽑아내기.
             List<string> nameList = new List<string>();
             for (int i = 1; i <= Range.Columns.Count; i++)
@@ -80,8 +47,6 @@ namespace ExcelToXMLConverter
             }
             //모든 컬럼을 돌며 XML로 변환.
             int startRow = 2;
-            //child = new XmlNode[Range.Rows.Count - 1];
-            //child[row - 2] = xmlDoc.CreateNode(XmlNodeType.Element, "Text", string.Empty);
             for (int row = startRow; row <= Range.Rows.Count; row++)
             {
                 // 자식 노드 생성
