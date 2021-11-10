@@ -36,11 +36,11 @@
             this.FindPathButton = new System.Windows.Forms.Button();
             this.CovertButton = new System.Windows.Forms.Button();
             this.BottonLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.DirectoryOpenButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.ResultTextBox = new System.Windows.Forms.TextBox();
+            this.DirectoryOpenButton = new System.Windows.Forms.Button();
             this.OpenFindButton = new System.Windows.Forms.Button();
             this.OpenJsonButton = new System.Windows.Forms.Button();
+            this.ResultTextBox = new System.Windows.Forms.TextBox();
             this.TopLayout.SuspendLayout();
             this.BottonLayout.SuspendLayout();
             this.SuspendLayout();
@@ -146,17 +146,6 @@
             this.BottonLayout.Size = new System.Drawing.Size(604, 48);
             this.BottonLayout.TabIndex = 1;
             // 
-            // DirectoryOpenButton
-            // 
-            this.DirectoryOpenButton.Font = new System.Drawing.Font("굴림체", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.DirectoryOpenButton.Location = new System.Drawing.Point(305, 5);
-            this.DirectoryOpenButton.Name = "DirectoryOpenButton";
-            this.DirectoryOpenButton.Size = new System.Drawing.Size(144, 38);
-            this.DirectoryOpenButton.TabIndex = 0;
-            this.DirectoryOpenButton.Text = "파일 위치 열기";
-            this.DirectoryOpenButton.UseVisualStyleBackColor = true;
-            this.DirectoryOpenButton.Click += new System.EventHandler(this.DirectoryOpenButton_Click);
-            // 
             // ExitButton
             // 
             this.ExitButton.Font = new System.Drawing.Font("굴림체", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -168,14 +157,16 @@
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // ResultTextBox
+            // DirectoryOpenButton
             // 
-            this.ResultTextBox.Location = new System.Drawing.Point(14, 103);
-            this.ResultTextBox.Multiline = true;
-            this.ResultTextBox.Name = "ResultTextBox";
-            this.ResultTextBox.ReadOnly = true;
-            this.ResultTextBox.Size = new System.Drawing.Size(604, 273);
-            this.ResultTextBox.TabIndex = 2;
+            this.DirectoryOpenButton.Font = new System.Drawing.Font("굴림체", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.DirectoryOpenButton.Location = new System.Drawing.Point(305, 5);
+            this.DirectoryOpenButton.Name = "DirectoryOpenButton";
+            this.DirectoryOpenButton.Size = new System.Drawing.Size(144, 38);
+            this.DirectoryOpenButton.TabIndex = 0;
+            this.DirectoryOpenButton.Text = "파일 위치 열기";
+            this.DirectoryOpenButton.UseVisualStyleBackColor = true;
+            this.DirectoryOpenButton.Click += new System.EventHandler(this.DirectoryOpenButton_Click);
             // 
             // OpenFindButton
             // 
@@ -199,6 +190,15 @@
             this.OpenJsonButton.UseVisualStyleBackColor = true;
             this.OpenJsonButton.Click += new System.EventHandler(this.OpenJsonButton_Click);
             // 
+            // ResultTextBox
+            // 
+            this.ResultTextBox.Location = new System.Drawing.Point(14, 103);
+            this.ResultTextBox.Multiline = true;
+            this.ResultTextBox.Name = "ResultTextBox";
+            this.ResultTextBox.ReadOnly = true;
+            this.ResultTextBox.Size = new System.Drawing.Size(604, 273);
+            this.ResultTextBox.TabIndex = 2;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
@@ -214,7 +214,8 @@
             this.Name = "MainForm";
             this.Padding = new System.Windows.Forms.Padding(10);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ExcelToJsonConverter";
+            this.Text = "ExcelToXMLConverter";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.TopLayout.ResumeLayout(false);
             this.TopLayout.PerformLayout();
             this.BottonLayout.ResumeLayout(false);

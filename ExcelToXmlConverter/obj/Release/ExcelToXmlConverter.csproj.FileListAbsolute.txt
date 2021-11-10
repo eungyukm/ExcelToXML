@@ -1,0 +1,9 @@
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXMLConverter.MainForm.resources
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXmlConverter.csproj.GenerateResource.cache
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXmlConverter.csproj.CoreCompileInputs.cache
+D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Release\ExcelToXMLConverter.exe.config
+D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Release\ExcelToXMLConverter.exe
+D:\unity project\ExcelToXML\ExcelToXmlConverter\bin\Release\ExcelToXMLConverter.pdb
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXMLConverter.exe
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXMLConverter.pdb
+D:\unity project\ExcelToXML\ExcelToXmlConverter\obj\Release\ExcelToXMLConverter.Properties.Resources.resources

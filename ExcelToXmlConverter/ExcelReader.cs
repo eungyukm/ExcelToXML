@@ -65,8 +65,8 @@ namespace ExcelToXMLConverter
         public void Free()
         {
             //저장할지 물어보는거 취소.
-            this.Application.DisplayAlerts = false;
-            this.Application.Quit();
+            Application.DisplayAlerts = false;
+            Application.Quit();
 
             Marshal.ReleaseComObject(this.Range);
             Marshal.ReleaseComObject(this.Cells);

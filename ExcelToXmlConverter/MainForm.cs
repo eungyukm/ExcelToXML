@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 using System.Xml;
 
@@ -118,6 +117,11 @@ namespace ExcelToXMLConverter
             {
                 Process.Start(FIleManager.NewFileName);
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
